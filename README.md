@@ -50,14 +50,14 @@ public class PersonN{
 
 
 ### 2. Folder Latihan 2
-Program latihan 2 ini adalah membuat *"class"* yang bernama AkunBank lalu kemudian membuat sebuah *"objek"* yang bernama AkunBankk dengan menetapkan nilai saldo awal Rp. 100000, program ini dibuat dengan mengaplikasikan penggunaan *"instance method"* yang kemudian method tersebut akan di panggil dan akan menampilkan sebuah ouput dari method tersebut, berikut adalah 3 instance method dari sebuah program : 
+Program latihan 2 ini adalah membuat *"class"* yang bernama AkunBank dan kemudian membuat sebuah *"objek"* yang bernama AkunBankk dengan menetapkan nilai saldo awal Rp. 100000, program ini dibuat dengan mengaplikasikan penggunaan *"instance method"* yang kemudian method tersebut akan di panggil dan akan menampilkan sebuah ouput dari method tersebut, berikut adalah 3 instance method dari sebuah program : 
 ```md
 * Method **simpanUang()** 
 * Method **ambilUang()** 
 * Method **cekSaldo()** 
 ```
 
-* **CODINGAN FILE 1 (AkunBank)**
+* **CODINGAN FILE 1 (AkunBank.java)**
 ```java
 public class AkunBank {
     int saldo;
@@ -87,7 +87,7 @@ public class AkunBank {
 }
 ```
 
-* **CODINGAN FILE 2 (AkunBankk)**
+* **CODINGAN FILE 2 (BankAction.java)**
 ```java
 public class BankAction {
       public static void main(String[] args){
